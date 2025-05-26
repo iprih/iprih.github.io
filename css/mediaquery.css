@@ -1,0 +1,32 @@
+@media (min-width:801px) {
+
+    video{
+        width: 900px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+
+
+    
+
+}
+
+@media (min-width: 2300px) {
+	.personagens{
+		max-width: 600px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin: 10px;
+		margin-bottom: 10px;
+		
+	 }
+	 figure{
+		 display: flex;
+		 flex-direction: column;
+		 justify-content: space-between;
+		 margin-bottom: 10px;
+	 }
+}
