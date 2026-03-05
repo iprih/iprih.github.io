@@ -1,4 +1,50 @@
-main {
-  min-height: 70vh;
-  padding: 40px 20px;
+body{
+  margin:0;
+  background:#0b0b0b;
+  color:white;
+  font-family: system-ui;
+}
+
+/* centralização da página */
+
+.container{
+  min-height:90vh;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+/* logo */
+
+.logo{
+  width:clamp(180px, 40vw, 420px);
+  opacity:0.9;
+  transition:0.4s;
+}
+
+.logo:hover{
+  opacity:1;
+  transform:scale(1.03);
+}
+
+/* footer */
+
+.footer{
+  height:10vh;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:40px;
+}
+
+.footer a{
+  color:#aaa;
+  transition:0.3s;
+}
+
+.footer a:hover{
+  color:white;
+  transform:scale(1.2);
 }

@@ -1,3 +1,33 @@
+body{
+  margin:0;
+  background:#0b0b0b;
+  color:white;
+  font-family: system-ui;
+}
+
+
+
+
+.container{
+  min-height:90vh;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.logo{
+  width:clamp(180px, 40vw, 420px);
+  opacity:0.9;
+  transition:0.4s;
+}
+
+.logo:hover{
+  opacity:1;
+  transform:scale(1.03);
+}
+
+
 .box {
   max-width: 720px;
   margin: 80px auto;
