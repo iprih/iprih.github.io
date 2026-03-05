@@ -1,0 +1,37 @@
+.box {
+  max-width: 720px;
+  margin: 80px auto;
+  padding: 40px;
+  background: #151515;
+  border: 1px solid #222;
+  border-radius: 20px;
+  position: relative;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  inset: -12px;
+  border-radius: 26px;
+  border: 1px dashed #333;
+  pointer-events: none;
+}
+
+
+.game-placeholder {
+  height: 220px;
+  border-radius: 12px;
+  border: 1px dashed #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  .box {
+    margin: 40px 16px;
+    padding: 24px;
+  }
+}
